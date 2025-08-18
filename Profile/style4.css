@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+      background-color: rgb(68, 108, 123);
+}
+
+/* Navbar */
+.navbar{
+    top: 0;
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar .logo{
+    width: 160px;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(4, 6, 6);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+
+/* Right Side - Form */
+.contact-form {
+  width: 55%;
+  max-width: 600px;
+  background: #333;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 100px auto 0 auto; /* top, auto left & right */
+}
+
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 1px solid #555;
+  background: transparent;
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: linear-gradient(90deg, #007bff, #00aaff);
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(90deg, #0056b3, #007bff);
+}
+

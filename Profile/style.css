@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(68, 108, 123);
+    font-family: sans-serif;
+}
+
+.main{
+    
+    height: 100vh;
+    position: relative;
+}
+
+/* Navbar */
+.navbar{
+    top: 0;
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar .logo{
+    width: 160px;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(4, 6, 6);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+/*About*/
+.info{
+    margin-left: 7%;
+
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+/*imag and icons*/
+.image{
+   margin-left: 7%;
+   height: 350px;
+   width: 350px;
+}
+
+.icons{
+    align-items: center;
+    flex-direction: row;
+    margin-left: 7%;
+    font-size: 3rem;
+}
+
+.icons a{
+    color: #000;
+}
+
+
+.icons :hover{
+    color: rgb(228, 124, 64);
+}
+
+
+
